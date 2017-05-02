@@ -1,2 +1,4 @@
-.git
-.DS_Store
+.tmp/
+coverage/
+dist/
+node_modules/
