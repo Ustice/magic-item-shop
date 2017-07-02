@@ -11,6 +11,14 @@ const threshold = {
   4: 0,
 };
 
+const rollDice = (number, sides) => {
+  return new Array(number)
+    .fill(null)
+    .map(() => roll(sides))
+    .reduce((accumulator, value) => accumulator + value, 0)
+  ;
+};
+
 const priceFunction = {
   0: () => (rollDice(1,6) + 1) * 10,
   1: () => rollDice(1,6) * 100,
@@ -21,17 +29,10 @@ const priceFunction = {
 
 const roll = sides => Math.floor(Math.random() * sides) + 1;
 
-const rollDice = (number, sides) => {
-  return new Array(number)
-    .fill(null)
-    .map(() => roll(sides))
-    .reduce((accumulator, value) => accumulator + value, 0)
-  ;
-};
-
 const calculatePrice = item => priceFunction[item.rarity]() * (item.type === 'Wondrous Item' ? 1.5 : 1);
 
 const inStock = magicItems
+  .filter(item => !item.cursed)
   .filter(item => {
     const die = Math.random();
 

@@ -2221,7 +2221,8 @@
     "rarity": 3,
     "attuenment": "",
     "notes": "",
-    "source": "dmg 153"
+    "source": "dmg 153",
+    "cursed": true
   },
   {
     "name": "Belt of Fire Giant Strength",
