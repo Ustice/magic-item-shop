@@ -1509,7 +1509,8 @@
     "rarity": 1,
     "attuenment": "",
     "notes": "",
-    "source": "dmg 166"
+    "source": "dmg 166",
+    "cursed": true
   },
   {
     "name": "Elemental Gem",
