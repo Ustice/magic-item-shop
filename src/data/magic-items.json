@@ -1117,7 +1117,8 @@
     "rarity": 2,
     "attuenment": "yes",
     "notes": "any axe",
-    "source": "dmg 155"
+    "source": "dmg 155",
+    "cursed": true
   },
   {
     "name": "Dagger of Venom",
