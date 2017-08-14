@@ -53,7 +53,8 @@
     "rarity": 2,
     "attuenment": "yes",
     "notes": "plate",
-    "source": "dmg 152"
+    "source": "dmg 152",
+    "cursed": true
   },
   {
     "name": "Armor, +1",
@@ -93,7 +94,8 @@
     "rarity": 2,
     "attuenment": "yes",
     "notes": "shield",
-    "source": "dmg 200"
+    "source": "dmg 200",
+    "cursed": true
   },
   {
     "name": "Shield, +2",
@@ -125,7 +127,8 @@
     "rarity": 3,
     "attuenment": "yes",
     "notes": "plate",
-    "source": "dmg 165"
+    "source": "dmg 165",
+    "cursed": true
   },
   {
     "name": "Dragon Scale Mail",
@@ -1077,7 +1080,8 @@
     "rarity": 1,
     "attuenment": "yes",
     "notes": "any sword",
-    "source": "dmg 206"
+    "source": "dmg 206",
+    "cursed": true
   },
   {
     "name": "Trident of Fish Command",
@@ -2544,7 +2548,8 @@
     "rarity": 4,
     "attuenment": "",
     "notes": "",
-    "source": "dmg 162"
+    "source": "dmg 162",
+    "cursed": true
   },
   {
     "name": "Horn of Valhalla, Iron",
